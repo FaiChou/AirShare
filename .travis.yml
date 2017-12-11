@@ -2,8 +2,8 @@ language: bash
 os: osx
 
 before_script:
-    - curl -L "https://raw.githubusercontent.com/FaiChou/AirShare/master/AirShare-CLI" >AirShare
+    - curl -L "https://raw.githubusercontent.com/FaiChou/AirShare/master/AirShare-CLI"
 
 script:
-    - bash AirShare -h
+    - bash AirShare-CLI -h
     
