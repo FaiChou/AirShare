@@ -1,5 +1,7 @@
 # AirShare
 
+![](https://travis-ci.org/FaiChou/AirShare.svg?branch=master)
+
 Mac's Handoff fucked.
 
 Luckily, the cosmos heard us, and responded with AirShare.
