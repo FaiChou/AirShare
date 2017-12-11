@@ -1,6 +1,10 @@
 # AirShare
 
-Command line to share chrome/safari tab url via airdrop.
+Mac's Handoff fucked.
+
+Luckily, the cosmos heard us, and responded with AirShare.
+
+It's a command line to share chrome/safari tab url via airdrop.
 
 [Here](http://faichou.space/notes/2017/12/11/AirShare) is a tutorial.
 
