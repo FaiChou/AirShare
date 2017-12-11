@@ -5,5 +5,5 @@ before_script:
     - curl "https://raw.githubusercontent.com/FaiChou/AirShare/master/AirShare-CLI" >AirShare-CLI
 
 script:
-    - bash AirShare-CLI -h
+    - AirShare-CLI -h
     
