@@ -14,7 +14,7 @@ It's a command line to share chrome/safari tab url via airdrop.
 ### Download AirShare-CLI
 
 ```
-$ sudo url https://raw.githubusercontent.com/FaiChou/AirShare/master/AirShare-CLI >AirShare & mv AirShare /usr/local/bin
+$ sudo curl https://raw.githubusercontent.com/FaiChou/AirShare/master/AirShare-CLI >AirShare & mv AirShare /usr/local/bin
 ```
 
 ### Usage
