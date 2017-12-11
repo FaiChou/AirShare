@@ -39,9 +39,13 @@ class AirShare: NSObject, NSApplicationDelegate, NSSharingServiceDelegate  {
   }
   
   func run() {
+    if CommandLine.argc == 1 {
+      getUrl(with: CHROME_SCRIPT)
+      return
+    }
     let argument = CommandLine.arguments[1]
     let index = argument.index(argument.startIndex, offsetBy: 1)
-    let (option, value) = getOption(String(argument[index...]))
+    let (option, _) = getOption(String(argument[index...]))
     switch option {
     case .chrome:
       getUrl(with: CHROME_SCRIPT)
@@ -49,9 +53,11 @@ class AirShare: NSObject, NSApplicationDelegate, NSSharingServiceDelegate  {
       getUrl(with: SAFARI_SCRIPT)
     case .help:
       consoleIO.printUsage()
+      exit(0)
     case .unkonwn:
-      consoleIO.writeMessage("Unknown option \(value)", to: .error)
+      consoleIO.writeMessage("Unknow option.\n", to: .error)
       consoleIO.printUsage()
+      exit(0)
     }
   }
   func getUrl(with cmd: String) {
