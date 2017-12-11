@@ -2,7 +2,7 @@ language: bash
 os: osx
 
 before_script:
-    - curl https://raw.githubusercontent.com/FaiChou/AirShare/master/AirShare-CLI >airshare & mv airshare /usr/local/bin
+    - curl https://raw.githubusercontent.com/FaiChou/AirShare/master/AirShare-CLI >ads & mv ads /usr/local/bin
     
 script:
-    - airshare -h
+    - ads -h
