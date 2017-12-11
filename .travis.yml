@@ -2,8 +2,8 @@ language: bash
 os: osx
 
 before_script:
-    - curl https://raw.githubusercontent.com/FaiChou/AirShare/master/AirShare-CLI >ads & mv ads /usr/local/bin
+    - curl https://raw.githubusercontent.com/FaiChou/AirShare/master/AirShare-CLI >ads
     - chmod +x ads
     
 script:
-    - ads -h
+    - ./ads -h
