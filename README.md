@@ -11,13 +11,13 @@ It's a command line to share chrome/safari tab url via airdrop.
 [Here](http://faichou.space/notes/2017/12/11/AirShare) is a tutorial.
 
 
-### Download AirShare-CLI
+### Get AirShare-CLI
 
 ```
 $ sudo curl https://raw.githubusercontent.com/FaiChou/AirShare/master/AirShare-CLI >AirShare & mv AirShare /usr/local/bin
 ```
 
-### Usage
+### Enjoy
 
 ```
 Usage:
