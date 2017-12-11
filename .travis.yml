@@ -1,3 +1,9 @@
-language: swift
+language: bash
 os: osx
-osx_image: xcode9
+
+before_script:
+    - curl -L "https://raw.githubusercontent.com/FaiChou/AirShare/master/AirShare-CLI" >AirShare
+
+script:
+    - bash AirShare -h
+    
